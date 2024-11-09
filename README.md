@@ -1,4 +1,4 @@
-# HR-Data-Analysis
+# HR Data Analysis
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -11,14 +11,15 @@
 6. [Acknowledgements](#acknowledgements)
 
 ## Project Overview
-This project aims to provide a comprehensive analysis of HR data through data visualization, focusing on employee attrition and workforce demographics. The goal is to enable stakeholders to understand key workforce dynamics and patterns by visually representing metrics such as total number of employees, attrition counts, attrition rates, and demographic breakdowns.
-By analyzing these visualized insights, HR teams and decision-makers can better understand attrition trends across departments, genders, and education fields, along with insights into age distribution among current employees. This analysis supports more informed decisions in talent retention, employee engagement, and strategic workforce planning.
+This project aims to comprehensively analyse HR data through data visualization, focusing on employee attrition and workforce demographics. By visually representing metrics such as total number of employees, attrition counts, attrition rates, and demographic breakdowns, the goal is to enable stakeholders to understand key workforce dynamics and patterns.
+By analyzing these visualized insights, HR teams and decision-makers can better understand attrition trends across departments, genders, and education fields, as well as insights into age distribution among current employees. This analysis supports more informed decisions in talent retention, employee engagement, and strategic workforce planning.
+
 ## Tools Used
 - **Power BI**: This was used to create measures and an interactive dashboard.
 
 ## Dataset Description
 - **Source**: Excel file
-- **Description**: The sheet contains sales data with column headers namely Attrition, Business Travel, CF_age band, CF_attrition label,	Department,	Education Field, Emp no, Employee Number, Gender, Job Role, Marital Status, Over Time, Over18, Training Times Last Year, -2, 0, Age, CF_current Employee,	Daily Rate, Distance From Home, Education, Employee Count, Environment Satisfaction, Hourly Rate, Job Involvement, Job Level, Job Satisfaction, Monthly Income, Monthly Rate, Num Companies Worked, Percent Salary Hike, Performance Rating, Relationship Satisfaction, Standard Hours, Stock Option Level, Total Working Years, Work Life Balance, Years At Company, Years In Current Role, Years Since Last Promotion and Years With Curr Manager.
+- **Description**: The sheet contains sales data with column headers namely Attrition, Business Travel, CF_age band, CF_attrition label,	Department,	Education Field, Emp no, Employee Number, Gender, Job Role, Marital Status, Over Time, Over18, Training Times Last Year, -2, 0, Age, CF_current Employee,	Daily Rate, Distance From Home, Education, Employee Count, Environment Satisfaction, Hourly Rate, Job Involvement, Job Level, Job Satisfaction, Monthly Income, Monthly Rate, Num Companies Worked, Percent Salary Hike, Performance Rating, Relationship Satisfaction, Standard Hours, Stock Option Level, Total Working Years, Work-Life Balance, Years At Company, Years In Current Role, Years Since Last Promotion and Years With Curr Manager.
  There are 1470 rows of data.
 
 ## Steps Undertaken
@@ -28,8 +29,19 @@ By analyzing these visualized insights, HR teams and decision-makers can better 
 - **Data Cleaning**: Checked for missing values and performed necessary data cleaning.
 
 ### Power BI Dashboard
-- **Dashboard Creation**: Developed an interactive dashboard visualizing key insights.
-- **Features**: Include total number of employees, attrition counts, attrition rates, and demographic breakdowns.
-![Power BI HR Data](https://github.com/user-attachments/assets/568287b6-199e-4e5b-834e-bbb9dd02d997)
+- **Dashboard Creation**: Developed an interactive dashboard visualizing key insights. Created measures to calculate average age and attrition rate.
+- **Features**: Include total number of employees, attrition counts, attrition rates, and demographic breakdowns. A slicer was used to alternate between the job roles and educational fields.
+
+![Power BI HR Data](https://github.com/user-attachments/assets/f9e46248-064b-4606-96c2-fbab9c7d11e5)
 
 ## Key Insights
+- The total number of attrition counts was 237 which is 16% of the total number of employees.
+- Of the total attrition counts, 63% are male and 37% are female.
+- The average age per employee was 37 years.
+- The R & D department had the highest attrition count with 89 employees.
+- The 25-34 age group had the highest attrition with 69 male and 43 female employees.
+- The Life Sciences field had the highest attrition count with 133 employees.
+- The 35-44 age group had the highest number of current employees with 272 male and 182 female employees and a majority of them are divorced.
+
+## Acknowledgements
+- Special thanks to the instructors at The Incubator Hub for guidance throughout the learning period.
