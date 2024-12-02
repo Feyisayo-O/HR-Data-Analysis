@@ -29,17 +29,17 @@ By analyzing these visualized insights, HR teams and decision-makers can better 
 - **Data Cleaning**: Checked for missing values and performed necessary data cleaning.
 
 ### Power BI Dashboard
-- **Dashboard Creation**: Developed an interactive dashboard visualizing key insights. Created measures to calculate average age and attrition rate.
+- **Dashboard Creation**: Developed an interactive dashboard visualizing key insights and created measures to calculate average age and attrition rate.
 - **Features**: Include total number of employees, attrition counts, attrition rates, and demographic breakdowns. A slicer was used to alternate between the job roles and educational fields.
 
-![Power BI HR Data](https://github.com/user-attachments/assets/f9e46248-064b-4606-96c2-fbab9c7d11e5)
+![Power BI HR](https://github.com/user-attachments/assets/0bdf2598-e406-4349-8bbf-5f1568c442f6)
 
 ## Key Insights
-- The total number of attrition counts was 237 which is 16% of the total number of employees.
-- Of the total attrition counts, 63% are male and 37% are female.
+- The total attrition count was 237 which is 16% of the total employees.
+- Of the total attrition count, 63% are male and 37% are female employees.
 - The average age per employee was 37 years.
 - The R & D department had the highest attrition count with 89 employees.
-- The 25-34 age group had the highest attrition with 69 male and 43 female employees.
+- The 25-34 age group had the highest attrition count with 69 male and 43 female employees.
 - The Life Sciences field had the highest attrition count with 133 employees.
 - The 35-44 age group had the highest number of current employees with 272 male and 182 female employees and a majority of them are divorced.
 
